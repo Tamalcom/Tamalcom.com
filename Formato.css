@@ -1,0 +1,55 @@
+.titulo {
+    display: flex;
+    align-items: center; 
+    gap: 100px;         
+    margin: auto;       
+}
+
+.mi-imagen {
+    width: 220px;
+    height: auto;
+}
+
+.contenido-texto {
+    font-family: broadway;
+    line-height: 1.6;
+    font-size: 80px;
+}
+
+p {
+    
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+/*subtitulos*/
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: auto;        
+    width: auto;     
+}
+
+.texto {
+    text-align: center;      
+    padding: 20px;
+    font-family: broadway;
+    font-size: 40px;
+}
+
+/*imagenes*/
+.imagenes {
+    display: flex;            /* Alinea los hijos en una fila por defecto */
+    justify-content: center;  /* Centra las imágenes horizontalmente */
+    align-items: center;      /* Las alinea verticalmente entre sí */
+    gap: 60px;                /* Define el espacio exacto entre las fotos */
+    margin: 10;           /* Espacio arriba y abajo del bloque */
+}
+
+.foto {
+    width: 250px;             /* Define un ancho fijo o proporcional */
+    height: 250px;             /* Mantiene la proporción de la imagen */
+    border-radius: 5px;       /* Opcional: bordes suavizados */
+}
