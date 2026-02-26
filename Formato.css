@@ -23,7 +23,7 @@ p {
     line-height: 1.2;
 }
 
-/*subtitulos*/
+
 .contenedor {
     display: flex;
     justify-content: center; 
@@ -39,19 +39,19 @@ p {
     font-size: 40px;
 }
 
-/*imagenes*/
+
 .imagenes {
-    display: flex;            /* Alinea los hijos en una fila por defecto */
-    justify-content: center;  /* Centra las imágenes horizontalmente */
-    align-items: center;      /* Las alinea verticalmente entre sí */
-    gap: 60px;                /* Define el espacio exacto entre las fotos */
-    margin: 10;           /* Espacio arriba y abajo del bloque */
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    gap: 60px;                
+    margin: 10;           
 }
 
 .foto {
-    width: 250px;             /* Define un ancho fijo o proporcional */
-    height: 250px;             /* Mantiene la proporción de la imagen */
-    border-radius: 5px;       /* Opcional: bordes suavizados */
+    width: 250px;           
+    height: 250px;             
+    border-radius: 5px;      
 }
 
 .container {
@@ -91,5 +91,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
 
 
