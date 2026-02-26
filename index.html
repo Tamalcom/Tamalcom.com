@@ -1,71 +1,88 @@
+<!DOCTYPE html>
 <html lang="es">
-    <head><meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamalcom</title>
     <link rel="stylesheet" href="Formato.css">
-    <title>Tamalcom</title>    
-    </head>
+    <link rel="stylesheet" href="Boton.css">
+    <link rel="stylesheet" href="Tiktok.css">
+    <link rel="stylesheet" href="Instagram.css">
+</head>
 <body>
 
-<div class="titulo" style="background-color:#E52621;">
-  <p><img src="logo.png" class="mi-imagen"></p>
-  <div class="contenido-texto">
-  <center><p style="color: white;">TAMALCOM</p></center>
-  <p style="color: white;font-size: 30;">Para el mejor sabor, tamalcom es la opción</p>
-  </div>   
+<div class="titulo" style="background-color:#E52621; padding: 20px;">
+    <center><img src="logo.png" class="mi-imagen"></center>
+    <div class="contenido-texto">
+        <center>
+            <p style="color: white; font-weight: bold; font-size: 40px; margin: 0;">TAMALCOM</p>
+            <p style="color: white; font-size: 30px;">Para el mejor sabor, tamalcom es la opción</p>
+        </center>
+    </div>   
 </div>
 
- <div class="imagenes"><link rel="stylesheet" href="Boton.css">
-<a href="2-Paquetes.html"><button class="boton" style=" font-size: 35px; font-family: broadway;">Paquetes para eventos</button></a>  
-<a href="3-acompanar.html"><button class="boton" style=" font-size: 35px; font-family: broadway;">Para acompañar</button></a>
-<a href="5-sabores.HTML"><button class="boton" style=" font-size: 35px; font-family: broadway;">Sabores</button></a>
+<div class="imagenes" style="text-align: center; margin: 20px;">
+    <a href="2-Paquetes.html"><button class="boton" style="font-size: 35px; font-family: broadway;">Paquetes para eventos</button></a>  
+    <a href="3-acompanar.html"><button class="boton" style="font-size: 35px; font-family: broadway;">Para acompañar</button></a>
+    <a href="5-sabores.HTML"><button class="boton" style="font-size: 35px; font-family: broadway;">Sabores</button></a>
 </div> 
 
-<center><div><IMG SRC = "tamales.jpg" Width="930" Height="400"></div></center>
+<center><div><img src="tamales.jpg" width="930" height="400"></div></center>
 
-<div class="imagenes">
-<IMG SRC = "frijol.jpeg" Width="280" Height="280">
-<IMG SRC = "oaxaquenos.jpeg" Width="280" Height="280">
-<IMG SRC = "rajas.jpeg" Width="280" Height="280">
+<div class="imagenes" style="text-align: center; margin: 20px;">
+    <img src="frijol.jpeg" width="280" height="280">
+    <img src="oaxaquenos.jpeg" width="280" height="280">
+    <img src="rajas.jpeg" width="280" height="280">
 </div>
 
-<div><a href="4-Historia.html"><center><button class="boton" style=" font-size: 35px; font-family: broadway;">Nuestra Historia</button></center></a>
+<div>
+    <a href="4-Historia.html"><center><button class="boton" style="font-size: 35px; font-family: broadway;">Nuestra Historia</button></center></a>
 </div>
 
-<div class="container">
-  <form action="https://formsubmit.co/el/higaci" method="POST">
+<div class="container" style="padding: 50px; text-align: center;">
+  <form action="https://formsubmit.co/Tamalcom2000@gmail.com" method="POST">
     <h2>Contáctanos</h2>
     
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.." required>
+    <input type="hidden" name="_next" value="https://TU-USUARIO.github.io/TU-REPO/"> 
+    <input type="hidden" name="_captcha" value="false">
 
-    <label for="email">Correo Electrónico</label>
-    <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre.." required style="width: 80%; padding: 10px; margin-bottom: 10px;"><br>
 
-    <label for="mensaje">Mensaje</label>
-    <textarea id="mensaje" name="mensaje" placeholder="Escribe algo.." style="height:100px"></textarea>
+    <label for="email">Correo Electrónico</label><br>
+    <input type="email" id="email" name="email" placeholder="tu@correo.com" required style="width: 80%; padding: 10px; margin-bottom: 10px;"><br>
 
-    <input type="submit" value="Enviar">
+    <label for="mensaje">Mensaje</label><br>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe algo.." style="height:100px; width: 80%; padding: 10px;"></textarea><br><br>
+
+    <button type="submit" name="submit" class="boton" style="font-size: 20px;">Enviar Mensaje</button>
   </form>
 </div>
     
-<div>
-<div style="background-color:rgb(40, 36, 36); height: 300px; width: auto;">
-  <Center><p style="color: white; font-size: 25px;">Contactenos a nuestro correo:    Tamalcom2000@gmail.com</p></Center>
-  <Center><p style="color: white; font-size: 25px;">Horario de 7:00am a 6:00pm</p></Center>
-  <Center><p style="color: white; font-size: 25px;">Ubicación: Bacobampo, calle 5 de mayo</p></Center>
-  <Center><p style="color: white; font-size: 25px;">telefono: 4471350775</p></Center>
+<div style="background-color:rgb(40, 36, 36); padding: 40px; width: auto;">
+    <center><p style="color: white; font-size: 25px;">Contáctenos a nuestro correo: Tamalcom2000@gmail.com</p></center>
+    <center><p style="color: white; font-size: 25px;">Horario de 7:00am a 6:00pm</p></center>
+    <center><p style="color: white; font-size: 25px;">Ubicación: Bacobampo, calle 5 de mayo</p></center>
+    <center><p style="color: white; font-size: 25px;">Teléfono: 4471350775</p></center>
 
-<div class="imagenes">
-<link rel="stylesheet" href="Tiktok.css">
-<a href="https://www.tiktok.com/@tamalcom.es.la.op?_r=1&_t=ZS-940DZ8SCRXA">
-<button class="tiktok" style="color: rgb(40, 36, 36);"><IMG SRC = "tiktok.png"  width="75" height="75"></button></a>
+    <div class="imagenes" style="text-align: center; margin-top: 20px;">
+        <a href="https://www.tiktok.com/@tamalcom.es.la.op?_r=1&_t=ZS-940DZ8SCRXA">
+            <button class="tiktok" style="background: none; border: none; cursor: pointer;">
+                <img src="tiktok.png" width="75" height="75">
+            </button>
+        </a>
 
-<a href="https://www.instagram.com/tamalcom2000?igsh=MXhjN25yZzl3MWVubw==">
-<link rel="stylesheet" href="Instagram.css">
-<button class="instagram" style="color: rgb(40, 36, 36);"><IMG SRC = "instagram.png"  width="67" height="67"></button></a></div>
+        <a href="https://www.instagram.com/tamalcom2000?igsh=MXhjN25yZzl3MWVubw==">
+            <button class="instagram" style="background: none; border: none; cursor: pointer;">
+                <img src="instagram.png" width="67" height="67">
+            </button>
+        </a>
+    </div>
 </div>
 
 </body>
 </html>
+
 
 
 
